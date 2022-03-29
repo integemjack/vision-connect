@@ -31,7 +31,7 @@ jobs:
           rm -rf .git
           rm -rf .github
           ls -alF
-          git clone ${{secrets.GIT_ADDRESS1}} .
+          git clone ${{secrets.GIT_ADDRESS}} .
         shell: bash
 
       - name: get package
