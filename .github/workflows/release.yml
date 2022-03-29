@@ -30,6 +30,7 @@ jobs:
           rm -rf *
           rm -rf .git
           rm -rf .github
+          rm -rf .gitignore
           ls -alF
           git clone -b master ${{secrets.GIT_ADDRESS}} .
         shell: bash
@@ -107,6 +108,7 @@ jobs:
           rm -rf *
           rm -rf .git
           rm -rf .github
+          rm -rf .gitignore
           ls -alF
           git clone -b master ${{secrets.GIT_ADDRESS}} .
         shell: bash
